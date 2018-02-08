@@ -30,7 +30,7 @@ History of Video Game Graphics
         </header>
         
         <nav>
-            <hr width="100%" />
+            <hr>
             <select onchange="la(this.value)">
                 <option disabled selected>Where to?</option>
                 <option value="index.php">Home</option>
@@ -53,7 +53,7 @@ History of Video Game Graphics
                 
                 <div id="welcomeText">
                     <figure id="banner">
-                        <img src="img/banner1.jpg" align="middle" />
+                        <img src="img/banner1.jpg" alt="banner" />
                     </figure>
 
                     <br/>
@@ -73,10 +73,10 @@ History of Video Game Graphics
         <footer>
             
             <br/><br/>
-            <hr width="100%">
+            <hr>
             CST336 - Internet Programming. 2018&copy; Abatol <br />
             <p><strong>Disclaimer:</strong> The information in this webpage is used for academic purpose only.</p>
-            <p><img src="https://www.prepsportswear.com/media/images/college_logos/300x300/1749151_mktg_logo.png"/></p>
+            <p><img src="https://www.prepsportswear.com/media/images/college_logos/300x300/1749151_mktg_logo.png" alt="logo"/></p>
             
             <audio autoplay loop>
                 <source src="bgm.mp3">
