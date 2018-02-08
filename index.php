@@ -26,7 +26,7 @@ History of Video Game Graphics
         
         <header>
             <h1> History of Video Game Graphics </h1>
-            <br/>
+            <br>
         </header>
         
         <nav>
@@ -47,7 +47,7 @@ History of Video Game Graphics
 
         </nav>
         
-        <br /><br />
+        <br><br>
         
         <main>
                 
@@ -56,14 +56,14 @@ History of Video Game Graphics
                         <img src="img/banner1.jpg" alt="banner" />
                     </figure>
 
-                    <br/>
+                    <br>
                     <p>This website will outline the advancements in computer graphics from its begginings in the 1950's till its most recent state.</p>
                     <p>We will cover the the major advances in technology and their affects in the industry.</p>
                     <p>We will also cover the more popular and best selling consoles of each generations and their individual features.</p>
-                    <br /> <br /> <br />
+                    <br> <br> <br>
                     
-                    <h2><strong>Let's Start!</strong></h2><br />
-                    <a href="beginnings.html">Beginnings--></a></br/></br>
+                    <h2><strong>Let's Start!</strong></h2><br>
+                    <a href="beginnings.html">Beginnings--></a><br><br>
                 </div>
                 
         </main>
@@ -72,9 +72,9 @@ History of Video Game Graphics
         <!-- The footer goes inside the body but not always -->
         <footer>
             
-            <br/><br/>
+            <br><br>
             <hr>
-            CST336 - Internet Programming. 2018&copy; Abatol <br />
+            CST336 - Internet Programming. 2018&copy; Abatol <br>
             <p><strong>Disclaimer:</strong> The information in this webpage is used for academic purpose only.</p>
             <p><img src="https://www.prepsportswear.com/media/images/college_logos/300x300/1749151_mktg_logo.png" alt="logo"/></p>
             
