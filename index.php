@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <!--
 
 Hw1 : HTML & CSS
@@ -62,7 +62,7 @@ History of Video Game Graphics
                     <p>We will also cover the more popular and best selling consoles of each generations and their individual features.</p>
                     <br /> <br /> <br />
                     
-                    <font size="5"><strong>Let's Start!</strong></font><br />
+                    <h2><strong>Let's Start!</strong></h2><br />
                     <a href="beginnings.html">Beginnings--></a></br/></br>
                 </div>
                 
