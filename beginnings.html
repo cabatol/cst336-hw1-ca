@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+Hw1 : HTML & CSS
+History of Video Game Graphics
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8" />
+        <title> History of Video Game Graphics </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Lobster');
+        </style>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1> History of Video Game Graphics </h1>
+            </br>
+        </header>
+        
+        <nav>
+            <hr width="100%" />
+            <select onchange="la(this.value)">
+                <option disabled selected>Where to?</option>
+                <option value="index.php">Home</option>
+                <option value="beginnings.html">Beginnings</option>
+                <option value="2d.html">2D Graphics</option>
+                <option value="3d.html">3D Graphics</option>
+            </select>
+            
+            <script>
+                function la(src){
+                    window.location=src;
+                }
+            </script>
+
+        </nav>
+        
+        <br /><br />
+        
+        <main>
+            
+            <div id="heading">
+                <section>
+                    <h2>In the Beginning</h2>
+                </section>
+                
+                <section id="left">
+                    <img src="img/tennis.jpg" align="middle" title="Tennis for Two" />
+                    <br>
+                    <p><img src="img/asteroids.jpg" align="middle" title="Asteroids" /></p>
+                    
+                </section>
+                
+                <section id="right">
+                    <br>
+                    <p>     When people talk about the first game, The word "Pong" gets thrown around
+                    Although Pong was an early arcade game that became commercially available in 1975,
+                    it was not the first. In all actuality, the first ever interactive game was developed
+                    in 1958 named Tennis for Two by an American physicist named William Higginbotham.
+                    It was made using a Donner Model 30 analog computer connected to an oscilloscope display.
+                    The graphics for the game was nothing more than green lights on a screen.</p>
+                    
+                    <br><br>
+                    <p>     Most games of this generation used what were called "Vector Graphics". This name
+                    refers to the use of geometrical primitives such as points, lines, and curves instead of
+                    resolution-dependent bitmap graphics to represent images in computer graphics.
+                    One benefit of this graphical style was the ability for the graphics to be scaled down to
+                     any size without the quality being compromised. </p>
+                     
+                     <br><br>
+                     <p>Some famous examples of video games with this graphical style include Armor Attack,
+                     Asteroids, Lunar Lander, Tempest, Star Castle, Star Wars, Battle Zone, Space War, 
+                     Tail Gunner 2, Tennis for Two, and Warrior.</p>
+                     
+                     
+                </section>
+                
+            </div>
+                
+        </main>
+        
+
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+        <section id="bottom">
+            <br>
+            <p><a href="index.php">--Home </a>|<a href="2d.html"> 2D Graphics--</a></br/></br></p>
+        </section>
+            
+            <br/><br/>
+            <hr width="100%">
+            
+            CST336 - Internet Programming. 2018&copy; Abatol <br />
+            <p><strong>Disclaimer:</strong> The information in this webpage is used for academic purpose only.</p>
+            <p>Sources:</p>
+            <p><a href="https://www.giantbomb.com/profile/monkeyking1969/lists/top-10-vector-graphics-arcade-games/354619/">Top 10 List</a></p>
+            <p><a href="http://www.computerhistory.org/timeline/graphics-games/">Timeline</a></p>
+            <p><img src="https://www.prepsportswear.com/media/images/college_logos/300x300/1749151_mktg_logo.png"/></p>
+            
+            <audio autoplay loop>
+                <source src="bgm.mp3">
+            </audio>
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>

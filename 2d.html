@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+Hw1 : HTML & CSS
+History of Video Game Graphics
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8" />
+        <title> History of Video Game Graphics </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Lobster');
+            @import url('https://fonts.googleapis.com/css?family=Anton');
+        </style>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1> History of Video Game Graphics </h1>
+            <br/>
+        </header>
+        
+        <nav>
+            <hr width="100%" />
+            <select onchange="la(this.value)">
+                <option disabled selected>Where to?</option>
+                <option value="index.php">Home</option>
+                <option value="beginnings.html">Beginnings</option>
+                <option value="2d.html">2D Graphics</option>
+                <option value="3d.html">3D Graphics</option>
+            </select>
+            
+            <script>
+                function la(src){
+                    window.location=src;
+                }
+            </script>
+
+        </nav>
+        
+        <br /><br />
+        
+        <main>
+            
+            <div id="heading">
+                <section>
+                    <h2>2D Graphics</h2>
+                </section>
+                
+                <section id="second">
+                    
+                    <img src="img/2d.jpg" align="middle" />
+                    
+                    <br><p>This generation of games ulitilized a graphic style called 2D which used
+                    two-dimensional bitmap graphics. This graphic style uses many tiny parts, called
+                    pixels, which are often different colors, to create images on the screen.
+                    this allowed developers to create large and complex game worlds more efficiently.
+                    The assets of the game would be separated with the world comprised of tiles and
+                    everything else made as sprites, both of which would be reused repeadtly.</p>
+                    
+                    <br><br>
+                    <p><h2>Top-Down Games</h2></p>
+                    <br>
+                    <img src="img/gta.jpg" align="middle" />
+                    
+                    <br><p>Also known as overhead view, is a type of 2D game which has a camera
+                    angle that shows the character and the area around from above. Many early games
+                    adopted this visual style, especially war games and construction/management games.</p>
+                    <p>Some popular examples of this style include SimCity, Pokemon, Tycoon Franchise,
+                    The Legend of Zelda, and Grand Theft Auto.</p>
+                    
+                    <br><br>
+                    <p><h2>Side-Scrolling</h2></p>
+                    <br>
+                    <img src="img/sonic.jpg" align="middle" />
+                    
+                    <br><p>These types of games were 2D games with the viewpoint taken from the side
+                    and either the sprites moved from side to side or the background was made to look like
+                    it was moving. These types of games used schrolling computer display technology and
+                    parallax scrolling to suggest added depth. Many games used this perspective style and
+                    other graphical technologies to give their individual games a different feeling and play style
+                    than the other games in the market.</p>
+                    <p>Some popular examples of games that used this style include Sonic the Hedgehog, Double Dragon,
+                    Battle Toads, R-Type, Super Mario Bros., and many others.</p>
+                    
+                    <br><br><p><h2>2.5D</h2></p>
+                    <br>
+                    <img src="img/diablo.jpg" align="middle" />
+                    
+                    <br><p>Also known as pseudo-3D graphics, is a 2D graphic style that would "fake"
+                    three-dimensionality. This was done by using multiple different techniques that would
+                    use a fixed point of view but would also reveal different facets of an object. Some
+                    techniques programmers would use to achieve this pseudo 3D style include oblique projection,
+                    isometric/axonometric projection, billboading, parallax scrolling, scaling, skyboxes,
+                    and skydomes.</p>
+                    <p>Some famous games that used this graphic style include The Sims, Diablo, Half-Life 2,
+                    Final Fantasy Tactics, Doom, Street Fighter II, and many others.</p>
+                    
+                </section>
+                
+            </div>
+                
+
+        </main>
+
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            
+        <section id="bottom">
+            <br>
+            <p><a href="beginnings.html">--Beginnings</a> | <a href="index.php">Home </a> | <a href="3d.html"> 3D Graphics--</a></br/></br></p>
+        </section>
+            
+            <br/><br/>
+            <hr width="100%">
+            CST336 - Internet Programming. 2018&copy; Abatol <br />
+            <p><strong>Disclaimer:</strong> The information in this webpage is used for academic purpose only.</p>
+            <p>Sources:</p>
+            <p><a href="https://en.wikipedia.org/wiki/Video_game_graphics">Video Game Graphics</a></p>
+            <p><img src="https://www.prepsportswear.com/media/images/college_logos/300x300/1749151_mktg_logo.png"/></p>
+            
+            <audio autoplay loop>
+                <source src="bgm.mp3">
+            </audio>
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>

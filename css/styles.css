@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+header {
+    color: #368BC1;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    color: #368BC1;
+}
+
+nav a{                      /*links within "nav" container */
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;  /*removes underline */
+    color: #FF8C00;           /*by default, links are blue, change to white */ 
+}
+
+nav a:hover {               /* pseudo class */
+    border-bottom: 2px #368BC1 solid;
+    font-size: 2em;
+    transition: .9s;        /* transition effect */
+    font-style: italic;
+    font-weight: bold;
+    color: #368BC1;
+}
+
+a {
+    text-decoration: none;
+    color: #FF8C00;
+}
+
+a:hover {
+    font-style: italic;
+    color: #368BC1;
+}
+
+#banner {
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    clear: left;
+    font-size: .75em;
+}
+
+#left {
+    text-align: right;
+    width: 48%;
+    float: left;
+}
+
+#right {
+    text-align: left;
+    width: 35%;
+    float: left;
+    padding-left: 50px;
+}
+
+#bottom {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#second {
+    font-size: 1em;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#third {
+    font-size: 1em;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
