@@ -23,6 +23,11 @@ h2 {
     color: #368BC1;
 }
 
+h3 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
 nav a{                      /*links within "nav" container */
     padding:15px;
     padding-bottom: 4px;
@@ -110,5 +115,21 @@ footer {
 }
 
 #logo {
+    text-align: center;
+}
+
+#diablo {
+    text-align: center;
+}
+
+#sonic {
+    text-align: center;
+}
+
+#gta {
+    text-align: center;
+}
+
+#2d {
     text-align: center;
 }
